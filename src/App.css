@@ -1,0 +1,71 @@
+@font-face {
+    font-family: PokemonHollow;
+    src: url("../assets/fonts/PokemonHollow.ttf") format("ttf");
+    font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+    font-family: "PokemonSolid";
+    src: url("../assets/fonts/PokemonSolid.ttf") format("ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "getSchwiftyFont";
+    src: url("../assets/fonts/get_schwifty.ttf");
+}
+@font-face {
+    font-family: "PokemonSolidNormal-xyWR";
+    src: url("../public/assets/fonts/PokemonSolidNormal-xyWR.ttf");
+}
+
+/*----------------------Reset-----------------------*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button, input {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/*-------------------Dark Theme----------------*/
+
+.theme .darkT{
+    background: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.409));
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.pokeTheme{
+    background-image: url(../public/assets/img/bg-Black2.png);
+}
+
+.themeSwitch{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 95%;
+
+}
+

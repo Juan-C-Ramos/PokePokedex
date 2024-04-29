@@ -1,0 +1,152 @@
+.pokedex{
+    padding: 0;
+}
+.darkT{
+    background-color: black !important;
+}
+
+.darkText{
+    color: white !important;
+}
+
+.cabezal {
+    background: url(/public/assets/img/bg-White3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    background-position: center bottom;
+    font-family: "PokemonSolidNormal-xyWR";
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 5px 5px 10px blue,
+        5px -5px 10px blue,
+        -5px 5px 10px blue,
+        -5px -5px 10px blue;
+    text-align: center;
+}
+.bienvenida__{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bienvenida {
+    font-size: 25px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bienvenida__text {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.busqueda {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px ;
+    margin-top: 15px ;
+}
+
+.busqueda input {
+    width: 325px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 10px 10px 20px black;
+    margin: 10px 30px 0 0;
+}
+
+.busqueda button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 10px 10px 20px black;
+    margin: 10px 0 0 0;
+
+}
+.paginacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.paginacion button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 10px 10px 20px black;
+    padding: 5px 10px 5px 10px;
+}
+
+.pokeCantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pokeCantidad input {
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 10px 10px 20px black;
+    margin: 10px 30px 0 0;
+}
+
+.pokeCantidad button {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 10px 10px 20px black;
+    padding: 5px 10px 5px 10px;
+}
+.pokeCantidad span {
+    font-size: 20px;
+    font-family: cursive;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+
+

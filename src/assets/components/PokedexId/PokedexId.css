@@ -1,0 +1,109 @@
+.idCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 20px;
+    margin: 15px;
+    width: 500px;
+    margin-left: 33%;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.colorBar{
+    position: absolute;
+    left: 33%;
+    width: 500px;
+    height: 460px;
+    z-index: -1;
+    border: 0;
+    border-radius:20px 20px 0 0;
+}
+.statsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+}
+.pokeStats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.pokeId, .pokeIdName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+
+}
+.pokeSeparacion{
+    margin-bottom: 50px;
+}
+.pokeSubTittle{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.pokeType{
+    margin-right: 10px;
+    padding: 2.5px 5px 2.5px 5px;
+    border-radius: 15px;
+}
+.pokeHabilidad{
+    margin-right: 10px;
+    padding: 2.5px 5px 2.5px 5px;
+    border-radius: 15px;
+    background-color: gray;
+}
+.pokeMovimiento__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.pokeMovimiento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 1px solid rgb(247, 246, 246);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    font-size: 15px;
+    background-color: rgb(228, 228, 228);
+}
+.stat{
+    height: 20px;
+    background-color: aqua;
+}
+
+.typeHabilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.pokeDimensiones{
+    display: flex;
+    flex-direction: raw;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeDimensiones__peso, .pokeDimensiones__altura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

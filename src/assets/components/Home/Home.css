@@ -1,0 +1,58 @@
+.home{
+    background-image: url("../public/assets/img/bg-White2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.tittle{
+    font-family: "PokemonSolidNormal-xyWR";
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: yellow !important;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow:    5px 5px 10px blue,
+                    -5px 5px 10px blue,
+                    5px -5px 10px blue,
+                    -5px -5px 10px blue;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input__login{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.login__button{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    color: black;
+    border: 0;
+    margin-top: 9px;
+    margin-left: 13px;
+}
+
+.login__button:hover{
+    background-color: red;
+    color: white;
+}
