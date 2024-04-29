@@ -10,7 +10,7 @@
 }
 
 .cabezal {
-    background: url(/public/assets/img/bg-White3.png);
+    background: url("../assets/img/bg-White3.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 260px;
